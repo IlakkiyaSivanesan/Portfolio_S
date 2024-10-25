@@ -51,7 +51,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <a
-              href="/resume/resumee%20(1).pdf" // Ensure the file path is correct
+              href="/resume/CV.pdf" // Ensure the file path is correct
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-violet-500 hover:bg-slate-800 text-white mt-3"
               download="Ilakkiya_CV.pdf" // Specify download name for the file
             >
@@ -67,9 +67,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[220px] h-[190px] lg:w-[220px] lg:h-[200px] relative">
+          <div className=" w-[220px] h-[190px] lg:w-[220px] lg:h-[200px] relative">
             <Image
-              src="/images/rose.png"
+              src="/images/rose.jpeg"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={180}
